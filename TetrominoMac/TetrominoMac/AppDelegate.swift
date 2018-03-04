@@ -19,7 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     override init() {
         window = Window(
             contentRect: screenBounds,
-            styleMask: [.titled, .closable, .miniaturizable, .fullSizeContentView],
+            styleMask: [.titled, .closable, .miniaturizable, .fullSizeContentView, .resizable],
             backing: .buffered,
             defer: false
         )
